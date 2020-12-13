@@ -137,7 +137,7 @@ button {
     height: 368px;
 }
 
-.team-member .member-name {
+.member-name {
     font-weight: 500;
     font-size: 16px;
     color: var(--title-text-color);
@@ -163,10 +163,10 @@ address {
 
 /* portfolio */
 
-.main-title_portfolio {
+/* .main-title_portfolio {
     visibility: hidden;
     margin: 0px;
-}
+} */
 
 .filtеr-button {
     font-family: Roboto;
@@ -184,16 +184,15 @@ address {
     background-color: var(--akcent-color);
 }
 
+.projects {
+    font-size: 16px;
+}
 
-.project-link > h4 {
+.project-title {
     font-weight: bold;
     font-size: 18px;
     color: var(--title-text-color);
 }
 
-
-.project-link > p {
-    font-size: 16px;
-}
 
 
