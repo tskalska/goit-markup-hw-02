@@ -119,7 +119,9 @@ button {
 
 /* Common section styles */
 
-.feature-description > .feature-title {
+.feature-title {
+    font-size: 14px; 
+    /* иначе стили браузера переопределяют заданную в body величину шрифта*/
     font-weight: bold;
     text-transform: uppercase;
     color: var(--title-text-color);
