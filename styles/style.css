@@ -110,7 +110,6 @@ button {
 
 
 .button-text {
-    font-family: Roboto;
     color: var(--primaty-wite-colour);
     font-size: 16px;
     font-weight: 700;
@@ -171,7 +170,6 @@ address {
 } */
 
 .filtеr-button {
-    font-family: Roboto;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -184,6 +182,7 @@ address {
 .filtеr-button:hover,
 .filtеr-button:focus {
     background-color: var(--akcent-color);
+    color: var(--primaty-wite-colour);
 }
 
 .projects {
